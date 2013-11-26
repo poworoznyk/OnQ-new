@@ -40,8 +40,8 @@ public class MainActivity extends Activity {
         paint.setColor(Color.GREEN);
         tmpB = BitmapFactory.decodeResource(getResources(),R.drawable.card);
         setTheSetName("BeerQuestions");
-       
-			populateJavaCards();
+        populateBeerCards();
+		populateJavaCards();
 		studyButton = (Button) findViewById(R.id.StudyButton);
 	
 		studyButton.setOnClickListener(new View.OnClickListener() {
